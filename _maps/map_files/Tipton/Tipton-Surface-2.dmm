@@ -58369,11 +58369,11 @@
 /area/f13/wasteland/cold)
 "tnN" = (
 /obj/structure/table/wood/fancy,
-/obj/item/nullrod/rosary,
 /obj/item/candle/infinite{
 	pixel_x = 10;
 	pixel_y = -2
 	},
+/obj/item/nullrod/rosary/vervitsa,
 /turf/open/floor/f13/wood,
 /area/f13/holiday)
 "tnQ" = (
