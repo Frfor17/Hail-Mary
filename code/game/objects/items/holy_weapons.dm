@@ -777,6 +777,10 @@
 	reskinned = TRUE
 
 /obj/item/nullrod/rosary/vervitsa
+	icon_state = "vervitsa"
+	name = "vervitsa"
+	desc = "This is a rope with 103 specially connected knots strung on it, separated by grains strung on a rope, and then connected into a ring that ends in a Сross, with a crossbar from below. You feel calm touching it."
+	slot_flags = ITEM_SLOT_NECK | ITEM_SLOT_BELT | ITEM_SLOT_GLOVES | ITEM_SLOT_POCKET
 
 /obj/item/nullrod/rosary/Initialize()
 	.=..()
