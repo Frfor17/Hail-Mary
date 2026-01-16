@@ -17560,9 +17560,6 @@
 /obj/structure/bookshelf{
 	icon_state = "book-4"
 	},
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
-	},
 /turf/open/floor/f13/wood,
 /area/f13/holiday)
 "fSr" = (
@@ -22366,11 +22363,7 @@
 /area/f13/tunnel)
 "hyk" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/door/unpowered/securedoor{
-	name = "Clinic";
-	req_access_txt = null;
-	req_one_access_txt = "133"
-	},
+/obj/structure/simple_door/room/dirty,
 /turf/open/floor/carpet/green,
 /area/f13/holiday)
 "hyl" = (
@@ -26149,9 +26142,6 @@
 /obj/item/reagent_containers/blood/random,
 /obj/item/reagent_containers/blood/random,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
-	},
 /turf/open/floor/f13/wood,
 /area/f13/holiday)
 "iMf" = (
@@ -30377,11 +30367,12 @@
 	},
 /area/f13/wasteland/cold)
 "kfO" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
+/obj/structure/curtain{
+	color = "#808080";
+	icon_state = "closed";
+	pixel_x = -32
 	},
-/turf/open/floor/f13/wood,
+/turf/closed/wall/f13/wood,
 /area/f13/holiday)
 "kfP" = (
 /obj/effect/turf_decal/weather/dirt,
@@ -42297,6 +42288,11 @@
 /obj/structure/curtain{
 	color = "#845f58"
 	},
+/obj/structure/curtain{
+	color = "#808080";
+	icon_state = "closed";
+	pixel_x = -32
+	},
 /turf/open/floor/f13/wood,
 /area/f13/holiday)
 "nXc" = (
@@ -45909,11 +45905,7 @@
 /area/f13/brotherhood/powered)
 "pfW" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/door/unpowered/securedoor{
-	name = "Clinic";
-	req_access_txt = null;
-	req_one_access_txt = "133"
-	},
+/obj/structure/simple_door/room/dirty,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2-broken"
 	},
@@ -72382,6 +72374,7 @@
 /obj/item/storage/fancy/candle_box,
 /obj/item/storage/box/matches,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/music_box,
 /turf/open/floor/f13/wood,
 /area/f13/holiday)
 "xTC" = (
@@ -122712,7 +122705,7 @@ nWV
 vyI
 vRp
 buG
-kfO
+nzP
 iLB
 rFe
 qJu
@@ -122965,7 +122958,7 @@ uHd
 uHd
 uHd
 kwl
-baP
+kfO
 rRA
 uDT
 mcT
