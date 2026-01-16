@@ -776,17 +776,7 @@
 /obj/item/nullrod/rosary/keep_as_is
 	reskinned = TRUE
 
-/obj/item/nullrod/rosary
-	icon_state = "rosary"
-	item_state = null
-	name = "prayer beads"
-	desc = "A set of prayer beads used by many of the more traditional religions in space"
-	force = 4
-	throwforce = 0
-	attack_verb = list("whipped", "repented", "lashed", "flagellated")
-	slot_flags = ITEM_SLOT_NECK | ITEM_SLOT_BELT // its a necklace lol
-	var/praying = FALSE
-	var/deity_name = "Giex" //This is the default, hopefully won't actually appear if the religion subsystem is running properly
+/obj/item/nullrod/rosary/vervitsa
 
 /obj/item/nullrod/rosary/Initialize()
 	.=..()
