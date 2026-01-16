@@ -6506,8 +6506,8 @@
 /area/f13/wasteland)
 "cit" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/booth{
-	icon_state = "booth_west_north"
+/obj/structure/chair/left{
+	dir = 8
 	},
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
 /area/f13/holiday)
@@ -7045,7 +7045,6 @@
 /area/f13/wasteland/cold)
 "crD" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/decoration/vent,
 /obj/structure/table/wood/poker,
 /obj/item/paper_bin{
 	pixel_y = 3;
@@ -19242,6 +19241,10 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building/powered)
+"gvP" = (
+/obj/structure/decoration/vent,
+/turf/open/floor/wood_mosaic/wood_mosaic_dark,
+/area/f13/holiday)
 "gvV" = (
 /obj/structure/table/wood,
 /obj/item/pda/heads/hos{
@@ -20542,8 +20545,8 @@
 	},
 /area/f13/wasteland/cold)
 "gRP" = (
-/obj/structure/chair/booth{
-	icon_state = "booth_west_north"
+/obj/structure/chair/right{
+	dir = 8
 	},
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
 /area/f13/holiday)
@@ -21677,7 +21680,7 @@
 /area/f13/wasteland)
 "hkd" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/booth{
+/obj/structure/chair/left{
 	dir = 1
 	},
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
@@ -27620,9 +27623,10 @@
 /turf/open/floor/wood_common,
 /area/f13/village)
 "jiD" = (
-/obj/machinery/jukebox{
-	layer = 5
-	},
+/obj/structure/table/wood/bar,
+/obj/item/reagent_containers/food/drinks/bottle/wine,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
 /area/f13/holiday)
 "jiL" = (
@@ -29540,11 +29544,11 @@
 	},
 /area/f13/wasteland)
 "jQt" = (
-/obj/structure/chair/booth,
 /obj/structure/sign/poster/prewar/poster69{
 	dir = 1;
 	pixel_y = -32
 	},
+/obj/structure/chair/left,
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
 /area/f13/holiday)
 "jQv" = (
@@ -36524,6 +36528,7 @@
 /area/f13/legioncamp)
 "mfD" = (
 /obj/structure/table/wood/poker,
+/obj/item/clothing/mask/cigarette/cigar,
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
 /area/f13/holiday)
 "mfH" = (
@@ -47205,7 +47210,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "pCQ" = (
-/obj/structure/chair/booth,
+/obj/structure/chair/right,
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
 /area/f13/holiday)
 "pDa" = (
@@ -50811,6 +50816,13 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"qOq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/middle{
+	dir = 8
+	},
+/turf/open/floor/wood_mosaic/wood_mosaic_dark,
+/area/f13/holiday)
 "qOs" = (
 /obj/structure/bed/old,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -51532,10 +51544,8 @@
 	},
 /area/f13/building/powered)
 "raV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/curtain{
-	color = "#845f58";
-	pixel_x = 30
+/obj/structure/chair/right{
+	dir = 1
 	},
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
 /area/f13/holiday)
@@ -54475,9 +54485,6 @@
 "rYp" = (
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
-	},
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
 	},
 /obj/structure/closet/crate/bin/trashbin,
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
@@ -67724,11 +67731,10 @@
 /turf/open/floor/plasteel/stairs,
 /area/f13/ambientlighting/building/g)
 "wpQ" = (
-/obj/structure/curtain{
-	color = "#845f58";
-	pixel_x = 30
-	},
 /obj/structure/simple_door/interior,
+/obj/structure/curtain{
+	color = "#5c131b"
+	},
 /turf/open/floor/wood_mosaic/wood_mosaic_dark,
 /area/f13/holiday)
 "wpV" = (
@@ -116531,7 +116537,7 @@ gpz
 bou
 rdN
 lbU
-raV
+dDb
 ymh
 iTV
 bcP
@@ -117559,7 +117565,7 @@ nOt
 qXQ
 sKo
 pLQ
-hwK
+gvP
 jiD
 kPW
 wfW
@@ -118075,7 +118081,7 @@ wfW
 jQt
 ajy
 crD
-wMi
+raV
 sKo
 rSB
 kyk
@@ -118331,7 +118337,7 @@ ygw
 wfW
 rYp
 gRP
-cit
+qOq
 cit
 onP
 tIN
